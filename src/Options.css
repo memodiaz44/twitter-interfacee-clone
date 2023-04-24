@@ -1,0 +1,28 @@
+.Option{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.Option:hover{
+    background-color: rgb(246, 242, 235);
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+
+.Option--action{
+    color: var(--twitter-color);
+}
+
+.Option > .MuiSvgIcon-root {
+    padding: 20px;
+}
+
+.Option > h1{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
